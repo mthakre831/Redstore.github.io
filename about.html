@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vievport" content="width=device-width, initial-
+        scale=1.0">
+        <title>All Products - RedStore</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="x-icon" href="rlogo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+         
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="card.html"><img src="cart.png" width="30px" height="30px"></a>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+<!-----account page --->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="image1.png" width="100%">
+            </div>
+            <h1>About - RedStore , 24 Hours Working Available </h1>
+            <br>
+            <br>
+            <p>In today's busy world, where people are occupied with work and have limited time for shopping, 
+                online shopping has become a great solution. It allows people to order various items like clothes,
+                 shoes, gadgets, and appliances from the comfort of their homes.</p>
+                 <br>
+                 <br>
+                 <h2>All Time Available</h2>
+                 <br>
+                 <br>
+                 <h2>Product delivery</h2>
+                 <br>
+                 <p>Package delivery: The product is shipped to a customer-designated address. Retail package delivery is typically done by the public postal system or a retail courier such as FedEx, UPS, DHL, or TNT.</p>
+                 <br>
+                 <small>Drop shipping: The order is passed to the manufacturer or third-party distributor, who then ships the item directly to the consumer, bypassing the retailer's physical location to save time, money, and space.
+                    In-store pick-up: The customer selects a local store using a locator software and picks up the delivered product at the selected location. This is the method often used in the bricks and clicks business model.</small>
+        
+
+           
+<!----footer------>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="play-store.png" >
+                    <img src="app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo-white.png">
+                <p>our Purpose Is To Sustainably Make the Pleasure and 
+                    Benefits of Sports accessible to the Many.</p>
+             </div>
+             <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+                
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+                
+            </div>
+        </div>
+        <hr>
+        <h3 class="copyright">Design by MOHIT THAKRE </h3>
+        <p>Email:   mthakre831@gmail.com   <br><br>  Linkedln: Mohit Thakre  <br><br>   Contact no. 6266707032   </p>
+    </div>
+</div>
+
+<!----js for toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(  MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+<!----js for toggle form---->
+
+
+
+
+
+    </body>
+</html>
